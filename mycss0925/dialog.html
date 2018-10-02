@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#div01{
+				width: 500px;
+				height: 300px;
+				border: 3px solid red;
+				position: absolute;
+				left:350px;
+				top: 200px;
+				z-index: 0;
+			}
+			#div02{
+				height: 10%;
+				background: greenyellow;
+				text-align: right;
+				padding-right: 15px;
+				position: relative;
+				bottom: 100px;
+				left:300px;
+				z-index: 999;
+			}
+			#div03{
+				height: 90%;
+				background: goldenrod;
+			}
+			a{
+				font-size: 20px;
+			}
+			#div04{
+				position: absolute;
+				width: 500px;
+				height: 300px;
+				border: 3px solid red;
+				background: yellow;	
+				z-index: 2;	
+				left:300px;	
+				opacity:0.8;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div01">
+			<div id="div02">
+				<span><a href="#">关闭</a></span>
+			</div>
+			<div id="div03">
+				
+			</div>
+		</div>
+		<div id="div04"></div>		
+	</body>
+</html>

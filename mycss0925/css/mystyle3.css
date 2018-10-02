@@ -1,0 +1,40 @@
+h1{
+	font: normal normal 32px;
+	color: #FFFFFF;
+	background: #518700;
+	line-height: 60px;
+	text-indent: 1em;
+	margin-bottom: 0px;
+}
+ul{
+	list-style: none;
+	background: #f3f4df;
+	margin-top: 0px;
+	padding-left: 5px;
+}
+li{
+	line-height: 36px;
+	border-bottom: 2px orange dashed;
+}
+a{
+	font: normal normal 24px;
+	color: #1a66b3;
+}
+
+a:hover{
+	color: deeppink;
+	text-decoration: none;
+}
+
+a:hover span{
+	background-color: deeppink;
+}
+
+a:hover div{
+	display: block;
+}
+
+/*隐藏所有的盒子*/
+div{
+	display: none;
+}

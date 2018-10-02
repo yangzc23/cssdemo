@@ -1,0 +1,13 @@
+ul{
+	list-style: none;
+}
+
+img{
+	border: 2px solid yellow;
+	width: 200px;
+	height: 200px;
+}
+
+img:hover{
+	border: 2px solid deeppink;
+}

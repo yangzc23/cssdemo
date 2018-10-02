@@ -1,0 +1,73 @@
+#biaoti1{
+	color:#FFFF00;
+	font-family: "仿宋";
+	font-style: italic;
+}				
+.blue{
+	color:blue;
+}
+.red{
+	color:red;
+}
+h2{
+	color:blue;
+}
+h1{
+	color:green;
+	line-height: 40px;
+}	
+li{
+	font-size: 24px;
+	line-height: 40px;
+}
+img{
+	vertical-align: middle;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color:#9ef5f9;
+}
+
+a:visited {
+	color:#333;
+}
+
+a:hover{
+	color:#ff7300;
+}
+
+a:active {
+	color:#999;
+}
+
+li:nth-child(6){
+	cursor: crosshair;
+}
+
+ol{
+	/*list-style-type:lower-roman;*/
+	/*
+	list-style-image: url(../img/play.png);
+	list-style-position: inside;
+	*/
+	list-style: circle inside url(../img/play.png);
+}
+
+li{
+	border: solid 2px red;
+}
+
+body{
+	/*background-color: #B9BBBE;*/
+	/*
+	background-image: url(../img/bg01.jpg);
+	background-repeat: no-repeat;
+	background-position: 200px 300px;
+	*/
+	background:#B9BBBE url(../img/bg01.jpg) 200px 300px no-repeat;
+
+}

@@ -1,0 +1,55 @@
+li.blue{
+	background-color: #0f7cbf;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 70px;
+	text-indent: 1em;
+	color: #FFFFFF;
+}
+
+.subcategory{
+	background-color: #e4f1fa;
+	color: #0f7cbf;
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 28px;
+	text-indent: 2em;	
+}
+
+a{
+	text-decoration: none;
+}
+
+.subcategory a:hover{
+	text-decoration: underline;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul ul{
+	padding-left: 0px;
+}
+
+ul ul ul{
+	padding-left: 50px;
+}
+
+ul.inline li{
+	margin: auto 15px;
+}
+
+.inline li{
+	display: inline-block;
+	line-height: 40px;
+	font-size: 24px;
+}
+
+.inline li a{
+	color: #666666;
+}
+
+.inline li a:hover{
+	color: #F60;
+}
